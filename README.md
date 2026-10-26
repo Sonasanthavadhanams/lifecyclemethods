@@ -99,30 +99,53 @@ public class MainActivity extends AppCompatActivity {
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E91E63"
+    android:backgroundTint="#DF9AEB"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HELLO WORLD!!!"
+        android:background="#DC03F4"
+        android:backgroundTint="@color/white"
+        android:text="WELCOME TO ANDROID STUDIO!!!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="34sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Cycle Activity "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
 
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
 ## OUTPUT
 
-<img width="957" height="562" alt="image" src="https://github.com/user-attachments/assets/8563d9ce-bcbe-47db-943a-fa098d3a0ffb" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/58ffce2b-df70-4af4-9f9c-69dc1bc14ab9" />
 
-<img width="947" height="548" alt="image" src="https://github.com/user-attachments/assets/86666136-63f1-4392-9aaa-04db29c1bd49" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f03b9b60-0153-453b-a225-ef70979c41c5" />
 
-<img width="951" height="555" alt="image" src="https://github.com/user-attachments/assets/791c80a5-5954-4032-99a7-b47532c3be11" />
-
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/edb5e3f4-2f68-48a5-8d81-3639edf97aad" />
 
 
 ## RESULT
